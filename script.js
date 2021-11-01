@@ -22,15 +22,15 @@ const clear = (request) => {
     gridSize = prompt('Please enter a number not greater than 100', 16);
     
   if (isNaN(gridSize)) {
-      window.alert("You must enter a positive number not greater than 100");
+      alert("You must enter a positive number not greater than 100");
       return;
   }
   else if (gridSize <= 0) {
-      window.alert("You must enter a positive number not greater than 100");
+      alert("You must enter a positive number not greater than 100");
       return;
   }
   else if (gridSize > 100) {
-      window.alert("You must enter a number not greater than 100");
+      alert("You must enter a number not greater than 100");
       return;
   }
   }
